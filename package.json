@@ -1,9 +1,24 @@
 {
-  "name": "Your App Name",
-  "version": "0.0.0",
-  "description": "",
-  "repository": "",
+  "name": "Waitr",
+  "version": "0.0.1",
+  "author": "Wesley Febrian, William Werner, Marshall Seid",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wfebrian/waitr"
+  },
+
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
-    "statik": "~1.2.5"
-  }
+    "express": "3.x",
+    "express3-handlebars": "*",
+    "mongodb": "*",
+    "mongoose": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }  
 }
